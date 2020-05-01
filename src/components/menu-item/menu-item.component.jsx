@@ -4,7 +4,6 @@ import { withRouter } from 'react-router-dom'
 import './menu.item-styles.scss'
 
 const MenuItem = ({ title, imgUrl, size, linkUrl, history, match }) => {
-  console.log(match);
   return (<div className={`${size} menu-item`} onClick={() => history.push(`${match.url}shop/${linkUrl}`)}>
     <div
       className="background-image"
