@@ -5,6 +5,10 @@
   font-family: 'Open Sans Condensed';
 }
 
+#root {
+  position: relative;
+}
+
 body {
   padding: 20px 60px;
 }
