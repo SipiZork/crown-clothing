@@ -2,6 +2,7 @@
   width: 380px;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   .title {
     margin: 10px 0;
@@ -10,5 +11,21 @@
   .buttons {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .sign-in  {
+    margin-bottom: 30px;
+
+    &:after {
+      content: '';
+      height: 1px;
+      width: 150%;
+      position: absolute;
+      bottom: -25px;
+      left: -25%;
+      background-color: rgba(134, 134, 134,1);
+    }
   }
 }
