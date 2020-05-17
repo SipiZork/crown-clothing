@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const height = props => {
-  if (props.size === 'large') {
+const height = ({ size }) => {
+  if (size === 'large') {
     return '380px'
-  } else if (props.size === 'nromal') {
+  } else if (size === 'nromal') {
     return '240px'
   }
   return '100px';
