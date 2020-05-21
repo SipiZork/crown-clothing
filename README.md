@@ -12,6 +12,6 @@ Responsive Single Page application with registration, collections, basket functi
  - Stripe
 
 ### Live version
-[Crown Clothing](https://crown.sipoarmark.com)
+[Crown Clothing](https://crown.siposrmark.com)
 #### based on the following tutorial
 [Udemy](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/)
