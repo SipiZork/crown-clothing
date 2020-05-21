@@ -1,6 +1,6 @@
 # Crown Clothing Webshop
 
-Responsive Single Page application with registration, collections, basket function and online payment option built with React, redux and styled-components.
+It is a Responsive Single Page application with registration, collections, basket function and online payment option was built with React, redux and styled-components.
 
 ### Built with
  - SCSS
